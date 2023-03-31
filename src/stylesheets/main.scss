@@ -1,3 +1,160 @@
-/* Your styles go here */
+// /* Your styles go here */
 @import "bootstrap/scss/bootstrap.scss";
 @import "bootstrap-icons/font/bootstrap-icons.css";
+
+// // Nav
+// .nav-logo{
+//     width: 15%;
+// }
+
+// .cta-nav{
+//     border-radius: 10px;
+// }
+
+// .cta-width{
+//     width: 20%;
+// }
+
+// nav ul li::after {
+//     content: '';
+//     width: 0%;
+//     height: 2px;
+//     background: #f44336;
+//     display: block;
+//     margin: auto;
+//     transition: 0.5s;
+// }
+
+// @media screen and (min-width: 650px) {
+//     .nav-logo{
+//         width:10%;
+//     }
+//   }
+
+//   @media screen and (min-width: 1000px) {
+//     .nav-logo{
+//         width:5%;
+//     }
+//   }
+
+//   @media screen and (min-width: 1400px) {
+//     .nav-logo{
+//         width:3%;
+//     }
+//   }
+
+//body 
+
+.body {
+    font-family: 'Noto Sans Display', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+// hero
+.hero-text{
+    font-size: 5vw;
+    text-align: left;
+}
+
+.hero-subtext{
+    font-size: 5vw;
+    text-align: right;
+    padding: 1%;
+    color: rgb(34, 34, 34);
+}
+
+.hero-logo{
+    background-image: url(../images/hero.jpg);
+    background-repeat: no-repeat;
+  }
+
+@media screen and (max-width: 600px) {
+    .space{
+        padding: 30%;
+    }
+
+    .hero-text{
+        font-size: 5rem;
+    }
+
+    .hero-subtext{
+        font-size: 2rem;
+    }
+
+}
+
+.spacingBoth {
+    padding-left: 10%;
+    padding-right: 10%;
+} 
+
+.imgHome {
+    height: 60vh;
+    width: 40vh;
+}
+
+.buttonL {
+    height: 30px;
+}
+
+.btn-light{
+    background-color: #00ff00;
+    border: none;
+}
+
+.btn-mus{
+    background-color: #faf757;
+    border: none;
+}
+
+.bgGreen {
+    color: #004d00;
+}
+
+.bglg {
+    background-color: #308130;
+}
+
+.bglight {
+    background-color: #bbccba;
+}
+
+.width {
+    width: 100%;
+} 
+
+.none {
+    padding: 0;
+    margin: 0;
+}
+
+// //about us
+// .vision-header{
+//     margin-bottom: 0;
+//     text-align: center;
+// }
+
+// .vision-body{
+//     margin-bottom: 0;
+// }
+
+// .contacts-header{
+//     margin-bottom: 0;
+//     text-align: center;
+// }
+
+// @media screen and (min-width: 1400px) {
+//     .vision-wrapper{
+//         background-color: white;
+//         margin-left: auto;
+//         margin-right: auto;
+//     }
+
+//     .vision-header{
+//         border-radius: 20px;
+//     }
+    
+//     .vision-body{
+//         border-radius: 20px;
+//     }
+//   }
